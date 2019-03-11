@@ -7,7 +7,7 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X FreeDom build instructions
+Mac OS X FreeDomd build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build FreeDom:
+4.  Now you should be able to build FreeDomd:
 
 cd bitcoin/src
 make -f makefile.osx
 
 Run:
-  ./FreeDom --help  # for a list of command-line options.
+  ./FreeDomd --help  # for a list of command-line options.
 Run
-  ./FreeDom -daemon # to start the bitcoin daemon.
+  ./FreeDomd -daemon # to start the bitcoin daemon.
 Run
-  ./FreeDom help # When the daemon is running, to get a list of RPC commands
+  ./FreeDomd help # When the daemon is running, to get a list of RPC commands

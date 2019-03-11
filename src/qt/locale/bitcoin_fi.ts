@@ -1644,8 +1644,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or FreeDom</source>
-        <translation>Lähetä käsky palvelimelle tai FreeDom:lle</translation>
+        <source>Send command to -server or FreeDomd</source>
+        <translation>Lähetä käsky palvelimelle tai FreeDomd:lle</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1669,7 +1669,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: FreeDom.pid)</source>
+        <source>Specify pid file (default: FreeDomd.pid)</source>
         <translation>Määritä pid-tiedosto (oletus: bitcoin.pid)</translation>
     </message>
     <message>

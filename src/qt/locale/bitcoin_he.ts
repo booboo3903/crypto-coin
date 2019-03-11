@@ -1644,8 +1644,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or FreeDom</source>
-        <translation>שלח פקודה ל -server או FreeDom</translation>
+        <source>Send command to -server or FreeDomd</source>
+        <translation>שלח פקודה ל -server או FreeDomd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1669,8 +1669,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: FreeDom.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: FreeDom.pid)</translation>
+        <source>Specify pid file (default: FreeDomd.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: FreeDomd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>

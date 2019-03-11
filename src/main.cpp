@@ -19,7 +19,7 @@ using namespace boost;
 //
 
 // Name of client reported in the 'version' message. Report the same name
-// for both FreeDom and bitcoin-qt, to make it harder for attackers to
+// for both FreeDomd and bitcoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
 const std::string CLIENT_NAME("Satoshi");
 

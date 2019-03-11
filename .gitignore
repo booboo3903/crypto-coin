@@ -1,6 +1,6 @@
 src/*.exe
 src/bitcoin
-src/FreeDom
+src/FreeDomd
 .*.swp
 *.*~*
 *.bak
