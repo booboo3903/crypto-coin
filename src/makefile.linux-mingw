@@ -61,12 +61,12 @@ OBJS= \
     obj/util.o \
     obj/wallet.o
 
-all: bitcoind.exe
+all: FreeDom.exe
 
 obj/%.o: %.cpp $(HEADERS)
 	i586-mingw32msvc-g++ -c $(CFLAGS) -o $@ $<
 
-bitcoind.exe: $(OBJS:obj/%=obj/%)
+FreeDom.exe: $(OBJS:obj/%=obj/%)
 	i586-mingw32msvc-g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 
@@ -82,5 +82,5 @@ clean:
 	-rm -f obj/test/*.o
 	-rm -f test/*.o
 	-rm -f headers.h.gch
-	-rm -f bitcoind.exe
+	-rm -f FreeDom.exe
 	-rm -f test_bitcoin.exe

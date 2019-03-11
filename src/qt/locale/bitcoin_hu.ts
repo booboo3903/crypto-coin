@@ -1640,8 +1640,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Parancs küldése a -serverhez vagy a bitcoindhez
+        <source>Send command to -server or FreeDom</source>
+        <translation>Parancs küldése a -serverhez vagy a FreeDomhez
 </translation>
     </message>
     <message>
@@ -1670,8 +1670,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: bitcoind.pid)
+        <source>Specify pid file (default: FreeDom.pid)</source>
+        <translation>pid-fájl (alapértelmezett: FreeDom.pid)
 </translation>
     </message>
     <message>

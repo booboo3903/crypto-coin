@@ -918,7 +918,7 @@ bool ReadConfigFile(map<string, string>& mapSettingsRet,
 string GetPidFile()
 {
     namespace fs = boost::filesystem;
-    fs::path pathConfig(GetArg("-pid", "bitcoind.pid"));
+    fs::path pathConfig(GetArg("-pid", "FreeDom.pid"));
     if (!pathConfig.is_complete())
         pathConfig = fs::path(GetDataDir()) / pathConfig;
     return pathConfig.string();

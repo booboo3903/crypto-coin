@@ -165,13 +165,13 @@ bool AppInit2(int argc, char* argv[])
         string strUsage = string() +
           _("Bitcoin version") + " " + FormatFullVersion() + "\n\n" +
           _("Usage:") + "\t\t\t\t\t\t\t\t\t\t\n" +
-            "  bitcoind [options]                   \t  " + "\n" +
-            "  bitcoind [options] <command> [params]\t  " + _("Send command to -server or bitcoind") + "\n" +
-            "  bitcoind [options] help              \t\t  " + _("List commands") + "\n" +
-            "  bitcoind [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
+            "  FreeDom [options]                   \t  " + "\n" +
+            "  FreeDom [options] <command> [params]\t  " + _("Send command to -server or FreeDom") + "\n" +
+            "  FreeDom [options] help              \t\t  " + _("List commands") + "\n" +
+            "  FreeDom [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
           _("Options:") + "\n" +
             "  -conf=<file>     \t\t  " + _("Specify configuration file (default: bitcoin.conf)") + "\n" +
-            "  -pid=<file>      \t\t  " + _("Specify pid file (default: bitcoind.pid)") + "\n" +
+            "  -pid=<file>      \t\t  " + _("Specify pid file (default: FreeDom.pid)") + "\n" +
             "  -gen             \t\t  " + _("Generate coins") + "\n" +
             "  -gen=0           \t\t  " + _("Don't generate coins") + "\n" +
             "  -min             \t\t  " + _("Start minimized") + "\n" +

@@ -1,2 +1,2 @@
-debian/bin/bitcoind usr/bin
-src/bitcoind usr/lib/bitcoin
+debian/bin/FreeDom usr/bin
+src/FreeDom usr/lib/bitcoin

@@ -1638,8 +1638,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Envia comando a bitcoin lanzado con -server u bitcoind
+        <source>Send command to -server or FreeDom</source>
+        <translation>Envia comando a bitcoin lanzado con -server u FreeDom
 </translation>
     </message>
     <message>
@@ -1668,7 +1668,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
+        <source>Specify pid file (default: FreeDom.pid)</source>
         <translation>Especifica archivo pid (predeterminado: bitcoin.pid)
 </translation>
     </message>

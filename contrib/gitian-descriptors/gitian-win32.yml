@@ -61,9 +61,9 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build bitcoind.exe USE_SSL=1 USE_UPNP=0
-  i586-mingw32msvc-strip bitcoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build FreeDom.exe USE_SSL=1 USE_UPNP=0
+  i586-mingw32msvc-strip FreeDom.exe
   makensis ../share/setup.nsi
   cp ../share/bitcoin-*-win32-setup.exe $OUTDIR/
   mkdir $OUTDIR/daemon
-  cp bitcoind.exe $OUTDIR/daemon
+  cp FreeDom.exe $OUTDIR/daemon
