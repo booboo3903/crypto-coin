@@ -1052,10 +1052,10 @@ void MapPort(bool /* unused fMapPort */)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"xf2.org", "bitseed.xf2.org"},
-    {"bluematt.me", "dnsseed.bluematt.me"},
-    {"bitcoin.sipa.be", "seed.bitcoin.sipa.be"},
-    {"dashjr.org", "dnsseed.bitcoin.dashjr.org"},
+    // {"xf2.org", "bitseed.xf2.org"},
+    // {"bluematt.me", "dnsseed.bluematt.me"},
+    // {"bitcoin.sipa.be", "seed.bitcoin.sipa.be"},
+    // {"dashjr.org", "dnsseed.bitcoin.dashjr.org"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1120,7 +1120,7 @@ void ThreadDNSAddressSeed2(void* parg)
 
 unsigned int pnSeed[] =
 {
-    
+
 };
 
 void DumpAddresses()
